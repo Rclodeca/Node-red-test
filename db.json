@@ -1,5 +1,7 @@
 {
-	"AUV": "RoboSub",
+	"AUV": {
+		"name": "RoboSub"
+	},
 	"Data": {
 		"VelocityFPS": 8 
 	}
