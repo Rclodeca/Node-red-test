@@ -1,8 +1,12 @@
 {
-	"AUV": {
-		"name": "RoboSub"
-	},
-	"Data": {
-		"VelocityFPS": 8 
+	"msg": {
+		"payload": {
+			"AUV": {
+				"name": "RoboSub"
+			},
+			"Data": {
+				"VelocityFPS": 8 
+			}
+		}
 	}
 }
