@@ -1,12 +1,21 @@
 {
-	"msg": {
-		"payload": {
-			"AUV": {
-				"name": "RoboSub"
-			},
+	"mode": [
+		{
+			"id": 1,
+			"type": "Autonomous",
 			"Data": {
 				"VelocityFPS": 8 
 			}
+		},
+		{
+			"id": 2,
+			"type": "Debug",
+			"Data": {
+				"VelocityFPS": 10 
+			}
 		}
-	}
+	],
+	"AUV": {
+		"name": "RoboSub"
+	}	
 }
