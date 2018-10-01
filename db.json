@@ -17,5 +17,29 @@
 	],
 	"AUV": {
 		"name": "RoboSub"
-	}	
+	},
+	"Missions": [
+		{
+			"id": 1,
+			"type": "Gate",
+			"waitTime": 1,
+			"useRelativeWaypoint": false,
+			"useRelativeWorld": true,
+			"gateSide": "left",
+			"distanceThrough": 10,
+			"amountToTheSide": 1
+		},
+		{
+			"id": 2,
+			"type": "Dice",
+			"timeOut": 10,
+			"useRelativeWaypoint": false,
+			"useRelativeWorld": true,
+			"dice#": 5,
+			"getDistanceAway": 10,
+			"minEstimates": 10,
+			"maxEstimates": 100
+		}
+	]	
+
 }
